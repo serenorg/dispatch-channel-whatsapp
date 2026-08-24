@@ -1,10 +1,12 @@
 # channel-whatsapp
 
+> Development moved to [`dispatch-plugins`](https://github.com/serenorg/dispatch-plugins/tree/main/channels/whatsapp). Version 0.2.0 is the final standalone release. Existing tags and release assets remain available for current installations.
+
 A [Dispatch](https://github.com/serenorg/dispatch) channel plugin for WhatsApp, using the native Rust [whatsapp-rust](https://github.com/oxidezap/whatsapp-rust) client.
 
 **No Docker. No Meta Business Account. No Cloud API app. No external daemon.** The plugin is a single Rust binary that links a WhatsApp Web session via QR code and stores that session locally in SQLite.
 
-This repository is the source of truth for the first-party WhatsApp channel plugin. The main `dispatch-plugins` repository keeps only a pointer README plus catalog metadata so WhatsApp remains discoverable without carrying its dependency graph inside the standard plugin workspace.
+This repository preserves the standalone release history. The current source, catalog metadata, and release process are in `dispatch-plugins`.
 
 ## Scope
 
